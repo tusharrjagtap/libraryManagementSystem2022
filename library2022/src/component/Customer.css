@@ -1,0 +1,45 @@
+
+.customer{
+    
+    width: 400px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.Heading{
+
+    margin-left: 400px;
+}
+.product{
+    width: 400px;
+    margin-left: 350px;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.footer{
+    background-color: #282c34;
+    height: 40px;
+    text-align: center;
+    margin-top: 200px;
+  }
+  .mb-3{
+    
+    width: 200px;
+    margin-left: 450px;
+}
+.btn{
+    text-align: center;
+    margin-left: 450px;
+}
+.CustomerButton{
+    margin-left: -400px;
+}
+.productsubmit{
+    margin-left: -400px;
+}
+.home1{
+    margin-left: 25px;
+}
+.home2{
+    margin-right: 25px;
+}

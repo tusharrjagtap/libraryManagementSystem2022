@@ -1,0 +1,125 @@
+.back {
+  margin: 0;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_LK4RqBCrD5hiSJEZWkv_uKtQuIAWSf4OA&usqp=CAU"); */
+  max-width: 100%;
+  margin-left: 0px !important;
+  padding: 0;
+}
+.lcontainer {
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ba09e6;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-5WfRE9pByDeu-c5wufeySU4FzkxFtP31Wg&usqp=CAU");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: rgb(27, 13, 105);
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label,
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.button_update {
+  display: flex;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background: linear-gradient(to right, #14e695, #14e695);
+  margin-left: 20px;
+  padding: auto;
+  width: 150px;
+}
+.button_update:hover {
+  background-color: #0df1ad;
+  border: 1px solid #0cfd18;
+  opacity: 0.8;
+}
+h2{text-align: center;}
+.button_del {
+  display: flex;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background: linear-gradient(to right, #fd440c, #ec1212);
+  margin-left: 20px;
+  padding: auto;
+  width: 150px;
+}
+.button_del:hover {
+  background-color: #fd440c;
+  border: 1px solid #fd440c;
+  opacity: 0.8;
+}
+.btn_login {
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background: linear-gradient(to right, #e40aa2, #e61465);
+  margin-left: 20px;
+  padding: auto;
+  width: 150px;
+}
+
+.btn_login:hover {
+  background-color: #0df1ad;
+  border: 1px solid #0cfd18;
+  opacity: 0.8;
+}
+/* button:hover {
+  box-shadow: none;
+} */

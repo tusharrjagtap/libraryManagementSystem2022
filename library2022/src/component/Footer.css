@@ -1,0 +1,224 @@
+.mtop {
+  background-image: url("data:image/jpeg;base64,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");
+}
+
+/* footer */
+@import url(https://kit.fontawesome.com/a105b01911);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background: blueviolet;
+  box-shadow: 0 1px 1px 0 rgba(241, 7, 7, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+}
+
+/* Footer links */
+
+.f
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
