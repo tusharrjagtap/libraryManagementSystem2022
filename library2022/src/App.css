@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.whole-page{
+  position: absolute;
+  background-repeat: 'no-repeat';
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.searchBox {
+  width: 1110px;
+}
+.col-4{
+  margin-top: 60px
+}
+.container {
+  /* background-color :crimson; */
+  background: linear-gradient(135 deg, #850c62, #f80759);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+.pass{
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+}
+.passs{
+  font-size: 15px;
+  color:white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+.app-wrapper {
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 400px;
+  padding: 30px;
+  box-sizing: 5px;
+  border-radius: 5px;
+  margin-top: 150px;
+}
+.submit {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 60px;
+  background: linear-gradient(to right, #1dc3cf, #072bf8);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: left;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.submit:hover {
+  background-color: #11fcdd;
+  border: 1px solid #0616f7;
+}
+.title {
+  color: #03aec5;
+  text-align: center;
+  margin: 80px 0px 40px 0px;
+}
+.name,
+.email,
+.password,
+.id,
+.date {
+  margin: 20px;
+  color: #966fe3;
+  font-size: 16px;
+}
+.password {
+  margin-bottom: 40px;
+}
+.input {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+}
+.error {
+  color: red;
+}
+
+.addUser,
+.addBook {
+  display: flex;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 60px;
+  background: linear-gradient(to right, #1dc3cf, #3150fa);
+  margin-left: 20px;
+  padding: auto;
+}
+.addBook:hover {
+  background-color: #11fcdd;
+  border: 1px solid #0616f7;
+}
+.addUser:hover {
+  background-color: #11fcdd;
+  border: 1px solid #0616f7;
+}
+.addSaff {
+  display: flex;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 60px;
+  margin: auto;
+  background-color: #f80759;
+  margin-left: 550px;
+  padding: auto;
+  margin-top: -50px;
+}
+.cancel {
+  display: flex;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 60px;
+  margin: auto;
+  background: linear-gradient(to right, #1dc3cf, #3150fa);
+  margin-left: 320px;
+  padding: auto;
+  margin-top: -50px;
+}
+.cancel:hover {
+  background-color: #11fcdd;
+  border: 1px solid #0616f7;
+}
+button:active {
+  transform: translateY(2px);
+}
+.form-success {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  min-width: 370px;
+  color: #f80759;
+}
+.jumbotron {
+  background: linear-gradient(to right, #1dc3cf, #3150fa);
+
+  transition: all 0.1s;
+  display: flex;
+  padding: 30px;
+
+  text-align: right;
+  color: white;
+}
+.jumbotron h1 {
+  font-size: 30px;
+}
+.navbar {
+  overflow: none;
+  
+  position: sticky;
+  position: relative;
+  top: 0;
+}
+.nav {
+  overflow: hidden;
+  background: linear-gradient(to right, #0429f7, #3150fa);
+}
+.logo {
+  margin-top: 15px;
+  height: 70px;
+  width: 100px;
+}
+.IACSD {
+  font-family: background;
+}
+.dropdown{
+color: #f70909;
+
+
+}
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  font-family: cursive;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.jumbaltron.right {
+  text-align: right;
+
+  background: linear-gradient(to right, #fa08d2, #e231fa);
+}
+.jumbaltron :hover {
+  background-color: #11fcdd;
+  border: 1px solid #0616f7;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: violet;
+}
+.AppBar {
+  background-image: url("https://media.istockphoto.com/photos/purple-defocused-blurred-motion-abstract-background-picture-id1273929462?b=1&k=20&m=1273929462&s=170667a&w=0&h=Yldyj7IZlkZSFHf3kgp4T2OV2HAYNRX1Kw8W4RAqPlQ=");
+  background-size: 100%;
+  border-bottom: solid 3px red;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: rgb(144, 31, 155);
+  color: rgb(247, 247, 255);
+}
+@media only screen and (max-width: 1600px) {
+  body {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_LK4RqBCrD5hiSJEZWkv_uKtQuIAWSf4OA&usqp=CAU"); */
+    background-color: rgb(238, 59, 238);
+  }
+
+  .addBook {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #1dc3cf, #072bf8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: left;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .addBook:hover {
+    background-color: #11fcdd;
+    border: 1px solid #0616f7;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .navbar {
+  overflow: hidden;
+
+} */
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: auto;
+  right: 449px;
+}
+
+.login-nav {
+  width: 90px;
+}
+
+.login-button {
+  width: auto;
+}
+
+
+.py-3{
+  color: #ec0000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.py-4{
+  color: #58147d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+  .py-33{
+  font-size: 55px ;
+  font-weight: bolder;
+  color: #58147d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(16, 228, 235);
+}
+
+.search {
+  width: 30%;
+}
+
+ul li {
+  font-size: 20px;
+} 
+.list{
+  margin-top: 9cm
+}
